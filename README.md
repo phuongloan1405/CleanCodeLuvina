@@ -1,4 +1,8 @@
 # CleanCodeLuvina
+--201222--
+1. Commit code Java Core, bổ sung việc refactor
+2. Đã tìm hiểu cách đọc dữ liệu từ file CSV
+3. Đang tìm hiểu thêm về Spring Boot và cách sử dụng.
 --201220--
 1. Tạo cấu trúc trên gitHub
 2. Commit src code bài Payroll. Ngôn ngữ sử dụng: Java Trong đó trình bày 2 nội dung:
