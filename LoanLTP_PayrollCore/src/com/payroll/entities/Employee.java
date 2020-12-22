@@ -95,9 +95,9 @@ public class Employee {
 	 * @return the age
 	 */
 	public double getAge() {
-		DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("yyyyMMdd");
-		LocalDate birthDay = LocalDate.parse(this.dob, dateFormatter);
-		age = birthDay.until(LocalDate.now(), ChronoUnit.DAYS) / DAY_OF_YEAR;
+		DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("yyyyMMdd");//định nghĩa format ngày tháng năm
+		LocalDate birthDay = LocalDate.parse(this.dob, dateFormatter); //chuyển từ String sang kiểu ngày
+		age = birthDay.until(LocalDate.now(), ChronoUnit.DAYS) / DAY_OF_YEAR; //tính ra tuổi cho tới thời điểm hiện tại
 		return age;
 	}
 
@@ -109,7 +109,7 @@ public class Employee {
 	}
 
 	/**
-	 * @return the yearWorked
+	 * @return the yearWorked: mảng năm làm việc, làm tròn đến năm và tháng
 	 */
 	@SuppressWarnings("unused")
 	public List<Integer> getYearWorked() {
@@ -130,7 +130,9 @@ public class Employee {
 	}
 
 	/**
-	 * @return the nowSal
+	 * @return the nowSal: lương hiện tại
+	 * Công thức: lương hiện tại = lương khởi điểm * hệ số tăng lương,
+	 * trong đó: hệ số tăng lương: mỗi 12 tháng ( 1 năm) gấp (1 + chỉ số ( 6%)) so với năm trước
 	 */
 	public String getNowSal() {
 		double now = startSal*Math.pow(1+COEFFICIENT, yearWorked.get(0)-1);

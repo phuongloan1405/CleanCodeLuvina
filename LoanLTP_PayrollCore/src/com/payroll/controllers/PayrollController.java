@@ -13,35 +13,33 @@ import com.payroll.entities.Employee;
 public class PayrollController {
 	public static final String FILE_NAME = "..\\employee.csv";
 	private static List<Employee> employees = new ArrayList<>();
-
+	
+	//PT đọc file CSV và gán các giá trị trong file vào 1 danh sách 
 	public void readfileCSV() {
-		List<String> employeeCSV;
+		List<String> lineCSV;
 		Employee employee = new Employee();
 		try {
-			File file = new File(FILE_NAME);
+			File file = new File(FILE_NAME);//khai báo và khởi tạo các đối tượng để đọc file
 			BufferedReader fileReader = new BufferedReader(new FileReader(file));
-			fileReader.readLine();
+			fileReader.readLine(); //bỏ qua dòng tiêu đề của file
 			String data = fileReader.readLine();
-			while (data != null) { // doc lan luot tung dong trong file va luu vao danh sach Employee
-				employeeCSV = Common.convertStringToListString(data);
-				employee = getEmployeeFromListString(employeeCSV);
+			while (data != null) { // đọc lần lượt từng dòng trong file và gán giá trị vào 1 danh sách Employee
+				lineCSV = Common.convertStringToListString(data);
+				employee = getEmployeeFromListString(lineCSV);
 				employees.add(employee);
 				data = fileReader.readLine();
 			}
 			fileReader.close();
-		} catch (IOException e) {
+		} catch (IOException e) { // bắt và xử lý ngoại lệ
 			System.out.println("An error occurred.");
 			e.printStackTrace();
 		}
 	}
 
-	public void name() {
-
-	}
-
+	//PT tạo đối tượng employee từ list thuộc tính của đối tượng
 	private Employee getEmployeeFromListString(List<String> employeeCSV) {
 		Employee employee = new Employee();
-		int index = 0;
+		int index = 0; // khai báo biến chạy
 		employee.setName(employeeCSV.get(index++));
 		employee.setDob(employeeCSV.get(index++));
 		employee.setRole(employeeCSV.get(index++));
