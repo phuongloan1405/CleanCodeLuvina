@@ -11,4 +11,4 @@
     2.1. Src code Java core, sử dụng các thư viện và phương thức được định nghĩa sẵn ( đã hoàn thành)
     
     
-    2.2. Src code Java sử dụng Sping boot.
+    2.2. Src code Java sử dụng Sping boot ( đang tìm hiểu thêm về Spring vì trước đây chưa làm)
