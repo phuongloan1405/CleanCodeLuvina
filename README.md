@@ -1,13 +1,14 @@
-LÊ THỊ PHƯƠNG LOAN
-Khoá học Clean Code - Luvina 2020
-Phần 1: Clean Code căn bản
-5 mục tiêu chính của Clean Code là
+#LÊ THỊ PHƯƠNG LOAN
+##Khoá học Clean Code - Luvina 2020
+##**Phần 1: Clean Code căn bản**
+###I.1. 5 mục tiêu chính của Clean Code là
 Mục tiêu 1
 Mục tiêu 2
 Mục tiêu 3
 Mục tiêu 4
 Mục tiêu 5
 Đáp án của tôi là team A bởi vì:
+
 Lý do 1
 Lý do 2
 Lý do 3
