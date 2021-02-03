@@ -46,12 +46,11 @@ Nhưng nếu là 1 ngôi nhà lớn, thì tuy tốn thời gian thiết kế, b�
 Vì khi đó, ta chỉ cần quan tâm đến lương khởi điểm và thâm niên, tính toán ra lương hiện tại. Hệ số đã có sẵn. Thực hiện theo cách này sẽ tuân thủ được nội dung _đủ tham số, không thừa, không thiếu"
 
 ### I.5. User - Post - Comment
-
+ https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/UserPostComment
 
 ## **Phần 2: OOP và SOLID** 
 1. Hãy lập trình Java để thực hiện thiết kế như hình vẽ
-
-
+https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/GraphicsEditor
 2. Composition over Inheritance và DI
 
 
@@ -60,19 +59,59 @@ Vì khi đó, ta chỉ cần quan tâm đến lương khởi điểm và thâm n
 
 ## **Phần 4: Thiết kế RESTful API**
 
-
+https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/LoanLTP.CleancodePhan4
 ## **Phần 5: Lập trình Restful API**
 
 
 ## **Trắc nghiệm**
 
-1. C      2. B      3. D      4. C      5. A
+1. C
 
-6. B      7. A      8. B      9. B      10. A
+2. B      
 
-11. B     12. C     13. B     14. D     15. D
+3. D      
 
-16. B     17. D     18. A     19. C     20. D
+4. C     
 
-21. B     22. B     23. B     24. A     25. C
+5. A
+
+6. B      
+
+7. A     
+
+8. B      
+
+9. B
+
+10. A
+
+11. B     
+
+12. C     
+
+13. B     
+
+14. D     
+
+15. D
+
+16. B     
+
+17. D     
+
+18. A     
+
+19. C     
+
+20. D
+
+21. B    
+
+22. B     
+
+23. B     
+
+24. A     
+
+25. C
 
