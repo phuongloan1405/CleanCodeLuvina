@@ -6,11 +6,15 @@
 
 ### I.1. 5 mục tiêu chính của Clean Code là
 
-Mục tiêu 1
-Mục tiêu 2
-Mục tiêu 3
-Mục tiêu 4
-Mục tiêu 5
++ Đơn giản, dễ hiểu, người khác có thể đọc được code của mình
+
++  Không thừa thãi, không trùng lặp code, tối ưu số lượng class, method,...
+
++ Dễ dàng nâng cấp và mở rộng code
+
++ Đáp ứng đúng mục đích, yêu cầu của đoạn code, giải quyết chính xác yêu cầu đặt ra
+
++ Tạo sự thống nhất, đồng bộ trong code
 
 ### I.2. Đáp án của tôi là team C bởi vì:
 
@@ -23,6 +27,8 @@ Ngoài ra, việc áp dụng từ dễ đến khó, là 1 hình thức " mưa d�
 ### I.3. " Clean Code chỉ làm phức tạp thêm vấn đề, và chậm lại hiệu suất làm việc của nhóm"
 
 Điều này chưa chính xác. Bởi:
+
+_(Giải thích mục tiêu, tác dụng của clean code)_
 
 Ta không code 1 mình, ta code theo team. Nếu mỗi người 1 style, 1 cách đặt tên, 1 " quy tắc riêng" của bản thân thì mỗi người là 1 mảnh ghép, nhưng không đảm bảo ghép với nhau được.
 
@@ -60,22 +66,13 @@ Vì khi đó, ta chỉ cần quan tâm đến lương khởi điểm và thâm n
 
 ## **Trắc nghiệm**
 
-1. 
+1. C      2. B      3. D      4. C      5. A
 
-2. B
+6. B      7. A      8. B      9. B      10. A
 
-3. D
+11. B     12. C     13. B     14. D     15. D
 
-4. C
+16. B     17. D     18. A     19. C     20. D
 
-5. A
+21. B     22. B     23. B     24. A     25. C
 
-6. B
-
-7. A
-
-8. B
-
-9.
-
-10.
