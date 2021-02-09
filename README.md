@@ -46,7 +46,7 @@ Nhưng nếu là 1 ngôi nhà lớn, thì tuy tốn thời gian thiết kế, b�
 Vì khi đó, ta chỉ cần quan tâm đến lương khởi điểm và thâm niên, tính toán ra lương hiện tại. Hệ số đã có sẵn. Thực hiện theo cách này sẽ tuân thủ được nội dung _đủ tham số, không thừa, không thiếu"
 
 ### I.5. User - Post - Comment
- https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/UserPostComment
+ ![UserPostComment]( https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/UserPostComment) (&lt;a&gt;)
 
 ## **Phần 2: OOP và SOLID** 
 1. Hãy lập trình Java để thực hiện thiết kế như hình vẽ
