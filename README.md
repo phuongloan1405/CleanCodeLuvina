@@ -46,28 +46,36 @@ Nhưng nếu là 1 ngôi nhà lớn, thì tuy tốn thời gian thiết kế, b�
 Vì khi đó, ta chỉ cần quan tâm đến lương khởi điểm và thâm niên, tính toán ra lương hiện tại. Hệ số đã có sẵn. Thực hiện theo cách này sẽ tuân thủ được nội dung _đủ tham số, không thừa, không thiếu"
 
 ### I.5. User - Post - Comment
- ![UserPostComment]( https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/UserPostComment) (&lt;a&gt;)
+
+[UserPostComment]( https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/UserPostComment)
 
 ## **Phần 2: OOP và SOLID** 
-1. Hãy lập trình Java để thực hiện thiết kế như hình vẽ
-https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/GraphicsEditor
-2. Composition over Inheritance và DI
+1. Hãy lập trình Java để thực hiện thiết kế như hình vẽ 
 
+[GraphicsEditor] ( https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/GraphicsEditor)
 
 ## **Phần 3: Thiết kế CSDL Quan hệ theo đặc tả**
-https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/Course%20Management
+[CourseManagement]( https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/Course%20Management)
 
 ## **Phần 4: Thiết kế RESTful API**
 
-https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/SignUpUser
+[SignUpUser] ( https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/SignUpUser)
 
 ## **Phần 5: Lập trình Restful API**
 
-https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/cleancodep5
+[Phan 5] ( https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/cleancodep5)
 
 ## **Trắc nghiệm**
 
-1. C        2. B        3. D        4. C        5. A
+1. C
+
+2. B
+
+3. D
+
+4. C
+
+5. A
 
 6. B      
 
