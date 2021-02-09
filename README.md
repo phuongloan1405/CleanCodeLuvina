@@ -59,21 +59,15 @@ https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/Course%20Management
 
 ## **Phần 4: Thiết kế RESTful API**
 
-https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/LoanLTP.CleancodePhan4
+https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/SignUpUser
+
 ## **Phần 5: Lập trình Restful API**
 
+https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/cleancodep5
 
 ## **Trắc nghiệm**
 
-1. C
-
-2. B      
-
-3. D      
-
-4. C     
-
-5. A
+1. C        2. B        3. D        4. C        5. A
 
 6. B      
 
