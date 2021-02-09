@@ -1,0 +1,470 @@
+2021-02-08 03:45:28,321 INFO org.springframework.boot.StartupInfoLogger [main] Starting Cleancodep4Application using Java 14.0.2 on DESKTOP-LEHFLR2 with PID 12396 (C:\Users\phanv\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\cleancodep4\target\classes started by phanv in C:\Users\phanv\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\cleancodep4)
+2021-02-08 03:45:28,323 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-02-08 03:45:28,898 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 03:45:28,935 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2021-02-08 03:45:29,233 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-02-08 03:45:29,240 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-08 03:45:29,241 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-02-08 03:45:29,241 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-08 03:45:29,321 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-02-08 03:45:29,321 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 970 ms
+2021-02-08 03:45:29,348 DEBUG org.springframework.web.filter.GenericFilterBean [main] Filter 'logFilter' configured for use
+2021-02-08 03:45:29,436 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 03:45:29,467 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-08 03:45:29,546 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 03:45:29,611 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-02-08 03:45:29,727 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-02-08 03:45:29,744 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-02-08 03:45:30,392 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 03:45:30,399 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 03:45:30,839 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 03:45:30,940 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 03:45:31,014 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 03:45:31,116 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-02-08 03:45:31,132 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-08 03:45:31,133 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 03:45:31,145 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 03:45:31,167 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 03:45:31,325 INFO org.springframework.boot.StartupInfoLogger [main] Started Cleancodep4Application in 3.286 seconds (JVM running for 3.774)
+2021-02-08 03:46:00,224 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-08 03:46:00,225 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-02-08 03:46:00,226 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-02-08 03:46:00,232 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-1] Before request [POST /create]
+2021-02-08 03:46:00,356 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-8080-exec-1] REQUEST DATA : POST /create, payload={
+    "name": "Nguyen Van A",
+    "email": "c.nguyen@gmali.com",
+    "password": "123456",
+    "year": "2001",
+    "mode": "STUDENT"
+}]
+2021-02-08 04:01:09,056 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(25)-127.0.0.1] Application shutdown requested.
+2021-02-08 04:01:09,076 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(25)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 04:01:09,078 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(25)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 04:01:09,080 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(25)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-02-08 04:01:09,084 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(25)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-02-08 04:01:13,812 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:12 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][pattern]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.example.demo.Cleancodep4Application.main(Cleancodep4Application.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:12 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][pattern]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 18 common frames omitted
+2021-02-08 04:01:53,901 [main] INFO  com.example.demo.Cleancodep4Application -  
+            Starting Cleancodep4Application using Java 14.0.2 on DESKTOP-LEHFLR2 with PID 16348 (C:\Users\phanv\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\cleancodep4\target\classes started by phanv in C:\Users\phanv\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\cleancodep4)  
+2021-02-08 04:01:53,903 [main] INFO  com.example.demo.Cleancodep4Application -  
+            No active profile set, falling back to default profiles: default  
+2021-02-08 04:01:54,440 [main] INFO  o.s.data.repository.config.RepositoryConfigurationDelegate -  
+            Bootstrapping Spring Data JPA repositories in DEFAULT mode.  
+2021-02-08 04:01:54,473 [main] INFO  o.s.data.repository.config.RepositoryConfigurationDelegate -  
+            Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.  
+2021-02-08 04:01:54,750 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -  
+            Tomcat initialized with port(s): 8080 (http)  
+2021-02-08 04:01:54,756 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -  
+            Initializing ProtocolHandler ["http-nio-8080"]  
+2021-02-08 04:01:54,756 [main] INFO  org.apache.catalina.core.StandardService -  
+            Starting service [Tomcat]  
+2021-02-08 04:01:54,756 [main] INFO  org.apache.catalina.core.StandardEngine -  
+            Starting Servlet engine: [Apache Tomcat/9.0.41]  
+2021-02-08 04:01:54,829 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -  
+            Initializing Spring embedded WebApplicationContext  
+2021-02-08 04:01:54,829 [main] INFO  o.s.boot.web.servlet.context.ServletWebServerApplicationContext -  
+            Root WebApplicationContext: initialization completed in 900 ms  
+2021-02-08 04:01:54,854 [main] DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter -  
+            Filter 'logFilter' configured for use  
+2021-02-08 04:01:54,940 [main] INFO  org.hibernate.jpa.internal.util.LogHelper -  
+            HHH000204: Processing PersistenceUnitInfo [name: default]  
+2021-02-08 04:01:54,970 [main] INFO  org.hibernate.Version -  
+            HHH000412: Hibernate ORM core version 5.4.27.Final  
+2021-02-08 04:01:55,044 [main] INFO  org.hibernate.annotations.common.Version -  
+            HCANN000001: Hibernate Commons Annotations {5.1.2.Final}  
+2021-02-08 04:01:55,106 [main] INFO  com.zaxxer.hikari.HikariDataSource -  
+            HikariPool-1 - Starting...  
+2021-02-08 04:01:55,221 [main] INFO  com.zaxxer.hikari.HikariDataSource -  
+            HikariPool-1 - Start completed.  
+2021-02-08 04:01:55,234 [main] INFO  org.hibernate.dialect.Dialect -  
+            HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect  
+2021-02-08 04:01:55,809 [main] INFO  o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator -  
+            HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]  
+2021-02-08 04:01:55,815 [main] INFO  o.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -  
+            Initialized JPA EntityManagerFactory for persistence unit 'default'  
+2021-02-08 04:01:56,147 [main] WARN  o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration -  
+            spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning  
+2021-02-08 04:01:56,228 [main] INFO  s.d.spring.web.PropertySourcedRequestMappingHandlerMapping -  
+            Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]  
+2021-02-08 04:01:56,287 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -  
+            Initializing ExecutorService 'applicationTaskExecutor'  
+2021-02-08 04:01:56,378 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -  
+            Starting ProtocolHandler ["http-nio-8080"]  
+2021-02-08 04:01:56,392 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -  
+            Tomcat started on port(s): 8080 (http) with context path ''  
+2021-02-08 04:01:56,393 [main] INFO  s.d.spring.web.plugins.DocumentationPluginsBootstrapper -  
+            Context refreshed  
+2021-02-08 04:01:56,404 [main] INFO  s.d.spring.web.plugins.DocumentationPluginsBootstrapper -  
+            Found 1 custom documentation plugin(s)  
+2021-02-08 04:01:56,423 [main] INFO  s.documentation.spring.web.scanners.ApiListingReferenceScanner -  
+            Scanning for api listing references  
+2021-02-08 04:01:56,537 [main] INFO  com.example.demo.Cleancodep4Application -  
+            Started Cleancodep4Application in 2.904 seconds (JVM running for 3.363)  
+2021-02-08 04:02:04,666 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -  
+            Initializing Spring DispatcherServlet 'dispatcherServlet'  
+2021-02-08 04:02:04,666 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -  
+            Initializing Servlet 'dispatcherServlet'  
+2021-02-08 04:02:04,667 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -  
+            Completed initialization in 1 ms  
+2021-02-08 04:02:04,673 [http-nio-8080-exec-1] DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter -  
+            Before request [POST /create]  
+2021-02-08 04:02:04,793 [http-nio-8080-exec-1] DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter -  
+            REQUEST DATA : POST /create, payload={
+    "name": "Nguyen Van A",
+    "email": "c.nguyen@gmali.com",
+    "password": "123456",
+    "year": "2001",
+    "mode": "STUDENT"
+}]  
+2021-02-08 04:02:25,977 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -  
+            Application shutdown requested.  
+2021-02-08 04:02:26,000 [RMI TCP Connection(7)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -  
+            Shutting down ExecutorService 'applicationTaskExecutor'  
+2021-02-08 04:02:26,002 [RMI TCP Connection(7)-127.0.0.1] INFO  o.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -  
+            Closing JPA EntityManagerFactory for persistence unit 'default'  
+2021-02-08 04:02:26,004 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -  
+            HikariPool-1 - Shutdown initiated...  
+2021-02-08 04:02:26,007 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -  
+            HikariPool-1 - Shutdown completed.  
+2021-02-08 04:02:35,158 [main] INFO  com.example.demo.Cleancodep4Application -  
+            Starting Cleancodep4Application using Java 14.0.2 on DESKTOP-LEHFLR2 with PID 6876 (C:\Users\phanv\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\cleancodep4\target\classes started by phanv in C:\Users\phanv\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\cleancodep4)  
+2021-02-08 04:02:35,160 [main] INFO  com.example.demo.Cleancodep4Application -  
+            No active profile set, falling back to default profiles: default  
+2021-02-08 04:02:35,696 [main] INFO  o.s.data.repository.config.RepositoryConfigurationDelegate -  
+            Bootstrapping Spring Data JPA repositories in DEFAULT mode.  
+2021-02-08 04:02:35,729 [main] INFO  o.s.data.repository.config.RepositoryConfigurationDelegate -  
+            Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.  
+2021-02-08 04:02:36,006 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -  
+            Tomcat initialized with port(s): 8080 (http)  
+2021-02-08 04:02:36,011 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -  
+            Initializing ProtocolHandler ["http-nio-8080"]  
+2021-02-08 04:02:36,011 [main] INFO  org.apache.catalina.core.StandardService -  
+            Starting service [Tomcat]  
+2021-02-08 04:02:36,011 [main] INFO  org.apache.catalina.core.StandardEngine -  
+            Starting Servlet engine: [Apache Tomcat/9.0.41]  
+2021-02-08 04:02:36,084 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -  
+            Initializing Spring embedded WebApplicationContext  
+2021-02-08 04:02:36,084 [main] INFO  o.s.boot.web.servlet.context.ServletWebServerApplicationContext -  
+            Root WebApplicationContext: initialization completed in 898 ms  
+2021-02-08 04:02:36,109 [main] DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter -  
+            Filter 'logFilter' configured for use  
+2021-02-08 04:02:36,197 [main] INFO  org.hibernate.jpa.internal.util.LogHelper -  
+            HHH000204: Processing PersistenceUnitInfo [name: default]  
+2021-02-08 04:02:36,227 [main] INFO  org.hibernate.Version -  
+            HHH000412: Hibernate ORM core version 5.4.27.Final  
+2021-02-08 04:02:36,302 [main] INFO  org.hibernate.annotations.common.Version -  
+            HCANN000001: Hibernate Commons Annotations {5.1.2.Final}  
+2021-02-08 04:02:36,366 [main] INFO  com.zaxxer.hikari.HikariDataSource -  
+            HikariPool-1 - Starting...  
+2021-02-08 04:02:36,575 [main] INFO  com.zaxxer.hikari.HikariDataSource -  
+            HikariPool-1 - Start completed.  
+2021-02-08 04:02:36,590 [main] INFO  org.hibernate.dialect.Dialect -  
+            HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect  
+2021-02-08 04:02:37,169 [main] INFO  o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator -  
+            HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]  
+2021-02-08 04:02:37,175 [main] INFO  o.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -  
+            Initialized JPA EntityManagerFactory for persistence unit 'default'  
+2021-02-08 04:02:37,502 [main] WARN  o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration -  
+            spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning  
+2021-02-08 04:02:37,585 [main] INFO  s.d.spring.web.PropertySourcedRequestMappingHandlerMapping -  
+            Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]  
+2021-02-08 04:02:37,645 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -  
+            Initializing ExecutorService 'applicationTaskExecutor'  
+2021-02-08 04:02:37,768 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -  
+            Starting ProtocolHandler ["http-nio-8080"]  
+2021-02-08 04:02:37,782 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -  
+            Tomcat started on port(s): 8080 (http) with context path ''  
+2021-02-08 04:02:37,783 [main] INFO  s.d.spring.web.plugins.DocumentationPluginsBootstrapper -  
+            Context refreshed  
+2021-02-08 04:02:37,795 [main] INFO  s.d.spring.web.plugins.DocumentationPluginsBootstrapper -  
+            Found 1 custom documentation plugin(s)  
+2021-02-08 04:02:37,813 [main] INFO  s.documentation.spring.web.scanners.ApiListingReferenceScanner -  
+            Scanning for api listing references  
+2021-02-08 04:02:37,935 [main] INFO  com.example.demo.Cleancodep4Application -  
+            Started Cleancodep4Application in 3.05 seconds (JVM running for 3.51)  
+2021-02-08 04:02:43,993 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -  
+            Initializing Spring DispatcherServlet 'dispatcherServlet'  
+2021-02-08 04:02:43,993 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -  
+            Initializing Servlet 'dispatcherServlet'  
+2021-02-08 04:02:43,994 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -  
+            Completed initialization in 0 ms  
+2021-02-08 04:02:44,000 [http-nio-8080-exec-1] DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter -  
+            Before request [POST /create]  
+2021-02-08 04:02:44,116 [http-nio-8080-exec-1] DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter -  
+            REQUEST DATA : POST /create, payload={
+    "name": "Nguyen Van A",
+    "email": "c.nguyen@gmali.com",
+    "password": "123456",
+    "year": "2001",
+    "mode": "STUDENT"
+}]  
+2021-02-08 04:03:45,882 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -  
+            Application shutdown requested.  
+2021-02-08 04:03:45,901 [RMI TCP Connection(9)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -  
+            Shutting down ExecutorService 'applicationTaskExecutor'  
+2021-02-08 04:03:45,903 [RMI TCP Connection(9)-127.0.0.1] INFO  o.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -  
+            Closing JPA EntityManagerFactory for persistence unit 'default'  
+2021-02-08 04:03:45,905 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -  
+            HikariPool-1 - Shutdown initiated...  
+2021-02-08 04:03:45,907 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -  
+            HikariPool-1 - Shutdown completed.  
+2021-02-08 04:03:54,830 [main] INFO  com.example.demo.Cleancodep4Application -  
+            Starting Cleancodep4Application using Java 14.0.2 on DESKTOP-LEHFLR2 with PID 12056 (C:\Users\phanv\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\cleancodep4\target\classes started by phanv in C:\Users\phanv\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\cleancodep4)  
+2021-02-08 04:03:54,832 [main] INFO  com.example.demo.Cleancodep4Application -  
+            No active profile set, falling back to default profiles: default  
+2021-02-08 04:03:55,386 [main] INFO  o.s.data.repository.config.RepositoryConfigurationDelegate -  
+            Bootstrapping Spring Data JPA repositories in DEFAULT mode.  
+2021-02-08 04:03:55,422 [main] INFO  o.s.data.repository.config.RepositoryConfigurationDelegate -  
+            Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.  
+2021-02-08 04:03:55,714 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -  
+            Tomcat initialized with port(s): 8080 (http)  
+2021-02-08 04:03:55,720 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -  
+            Initializing ProtocolHandler ["http-nio-8080"]  
+2021-02-08 04:03:55,720 [main] INFO  org.apache.catalina.core.StandardService -  
+            Starting service [Tomcat]  
+2021-02-08 04:03:55,720 [main] INFO  org.apache.catalina.core.StandardEngine -  
+            Starting Servlet engine: [Apache Tomcat/9.0.41]  
+2021-02-08 04:03:55,794 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -  
+            Initializing Spring embedded WebApplicationContext  
+2021-02-08 04:03:55,794 [main] INFO  o.s.boot.web.servlet.context.ServletWebServerApplicationContext -  
+            Root WebApplicationContext: initialization completed in 935 ms  
+2021-02-08 04:03:55,821 [main] DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter -  
+            Filter 'logFilter' configured for use  
+2021-02-08 04:03:55,905 [main] INFO  org.hibernate.jpa.internal.util.LogHelper -  
+            HHH000204: Processing PersistenceUnitInfo [name: default]  
+2021-02-08 04:03:55,935 [main] INFO  org.hibernate.Version -  
+            HHH000412: Hibernate ORM core version 5.4.27.Final  
+2021-02-08 04:03:56,006 [main] INFO  org.hibernate.annotations.common.Version -  
+            HCANN000001: Hibernate Commons Annotations {5.1.2.Final}  
+2021-02-08 04:03:56,068 [main] INFO  com.zaxxer.hikari.HikariDataSource -  
+            HikariPool-1 - Starting...  
+2021-02-08 04:03:56,180 [main] INFO  com.zaxxer.hikari.HikariDataSource -  
+            HikariPool-1 - Start completed.  
+2021-02-08 04:03:56,198 [main] INFO  org.hibernate.dialect.Dialect -  
+            HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect  
+2021-02-08 04:03:56,775 [main] INFO  o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator -  
+            HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]  
+2021-02-08 04:03:56,782 [main] INFO  o.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -  
+            Initialized JPA EntityManagerFactory for persistence unit 'default'  
+2021-02-08 04:03:57,121 [main] WARN  o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration -  
+            spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning  
+2021-02-08 04:03:57,209 [main] INFO  s.d.spring.web.PropertySourcedRequestMappingHandlerMapping -  
+            Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]  
+2021-02-08 04:03:57,267 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -  
+            Initializing ExecutorService 'applicationTaskExecutor'  
+2021-02-08 04:03:57,360 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -  
+            Starting ProtocolHandler ["http-nio-8080"]  
+2021-02-08 04:03:57,376 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -  
+            Tomcat started on port(s): 8080 (http) with context path ''  
+2021-02-08 04:03:57,377 [main] INFO  s.d.spring.web.plugins.DocumentationPluginsBootstrapper -  
+            Context refreshed  
+2021-02-08 04:03:57,388 [main] INFO  s.d.spring.web.plugins.DocumentationPluginsBootstrapper -  
+            Found 1 custom documentation plugin(s)  
+2021-02-08 04:03:57,407 [main] INFO  s.documentation.spring.web.scanners.ApiListingReferenceScanner -  
+            Scanning for api listing references  
+2021-02-08 04:03:57,534 [main] INFO  com.example.demo.Cleancodep4Application -  
+            Started Cleancodep4Application in 2.983 seconds (JVM running for 3.444)  
+2021-02-08 04:04:00,089 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -  
+            Initializing Spring DispatcherServlet 'dispatcherServlet'  
+2021-02-08 04:04:00,090 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -  
+            Initializing Servlet 'dispatcherServlet'  
+2021-02-08 04:04:00,091 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -  
+            Completed initialization in 1 ms  
+2021-02-08 04:04:00,096 [http-nio-8080-exec-1] DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter -  
+            Before request [POST /create]  
+2021-02-08 04:04:00,218 [http-nio-8080-exec-1] DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter -  
+            REQUEST DATA : POST /create, payload={
+    "name": "Nguyen Van A",
+    "email": "c.nguyen@gmali.com",
+    "password": "123456",
+    "year": "2001",
+    "mode": "STUDENT"
+}]  
+2021-02-08 04:05:00,111 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -  
+            Application shutdown requested.  
+2021-02-08 04:05:00,128 [RMI TCP Connection(9)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -  
+            Shutting down ExecutorService 'applicationTaskExecutor'  
+2021-02-08 04:05:00,130 [RMI TCP Connection(9)-127.0.0.1] INFO  o.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -  
+            Closing JPA EntityManagerFactory for persistence unit 'default'  
+2021-02-08 04:05:00,132 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -  
+            HikariPool-1 - Shutdown initiated...  
+2021-02-08 04:05:00,135 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -  
+            HikariPool-1 - Shutdown completed.  
+2021-02-08 04:05:08,162 [main] INFO  com.example.demo.Cleancodep4Application -  
+            Starting Cleancodep4Application using Java 14.0.2 on DESKTOP-LEHFLR2 with PID 7340 (C:\Users\phanv\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\cleancodep4\target\classes started by phanv in C:\Users\phanv\Documents\workspace-spring-tool-suite-4-4.8.0.RELEASE\cleancodep4)  
+2021-02-08 04:05:08,164 [main] INFO  com.example.demo.Cleancodep4Application -  
+            No active profile set, falling back to default profiles: default  
+2021-02-08 04:05:08,697 [main] INFO  o.s.data.repository.config.RepositoryConfigurationDelegate -  
+            Bootstrapping Spring Data JPA repositories in DEFAULT mode.  
+2021-02-08 04:05:08,730 [main] INFO  o.s.data.repository.config.RepositoryConfigurationDelegate -  
+            Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.  
+2021-02-08 04:05:09,012 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -  
+            Tomcat initialized with port(s): 8080 (http)  
+2021-02-08 04:05:09,017 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -  
+            Initializing ProtocolHandler ["http-nio-8080"]  
+2021-02-08 04:05:09,018 [main] INFO  org.apache.catalina.core.StandardService -  
+            Starting service [Tomcat]  
+2021-02-08 04:05:09,018 [main] INFO  org.apache.catalina.core.StandardEngine -  
+            Starting Servlet engine: [Apache Tomcat/9.0.41]  
+2021-02-08 04:05:09,094 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -  
+            Initializing Spring embedded WebApplicationContext  
+2021-02-08 04:05:09,094 [main] INFO  o.s.boot.web.servlet.context.ServletWebServerApplicationContext -  
+            Root WebApplicationContext: initialization completed in 904 ms  
+2021-02-08 04:05:09,120 [main] DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter -  
+            Filter 'logFilter' configured for use  
+2021-02-08 04:05:09,206 [main] INFO  org.hibernate.jpa.internal.util.LogHelper -  
+            HHH000204: Processing PersistenceUnitInfo [name: default]  
+2021-02-08 04:05:09,237 [main] INFO  org.hibernate.Version -  
+            HHH000412: Hibernate ORM core version 5.4.27.Final  
+2021-02-08 04:05:09,312 [main] INFO  org.hibernate.annotations.common.Version -  
+            HCANN000001: Hibernate Commons Annotations {5.1.2.Final}  
+2021-02-08 04:05:09,375 [main] INFO  com.zaxxer.hikari.HikariDataSource -  
+            HikariPool-1 - Starting...  
+2021-02-08 04:05:09,581 [main] INFO  com.zaxxer.hikari.HikariDataSource -  
+            HikariPool-1 - Start completed.  
+2021-02-08 04:05:09,595 [main] INFO  org.hibernate.dialect.Dialect -  
+            HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect  
+2021-02-08 04:05:10,168 [main] INFO  o.h.e.transaction.jta.platform.internal.JtaPlatformInitiator -  
+            HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]  
+2021-02-08 04:05:10,174 [main] INFO  o.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -  
+            Initialized JPA EntityManagerFactory for persistence unit 'default'  
+2021-02-08 04:05:10,498 [main] WARN  o.s.b.a.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration -  
+            spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning  
+2021-02-08 04:05:10,577 [main] INFO  s.d.spring.web.PropertySourcedRequestMappingHandlerMapping -  
+            Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]  
+2021-02-08 04:05:10,634 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -  
+            Initializing ExecutorService 'applicationTaskExecutor'  
+2021-02-08 04:05:10,727 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -  
+            Starting ProtocolHandler ["http-nio-8080"]  
+2021-02-08 04:05:10,743 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer -  
+            Tomcat started on port(s): 8080 (http) with context path ''  
+2021-02-08 04:05:10,744 [main] INFO  s.d.spring.web.plugins.DocumentationPluginsBootstrapper -  
+            Context refreshed  
+2021-02-08 04:05:10,755 [main] INFO  s.d.spring.web.plugins.DocumentationPluginsBootstrapper -  
+            Found 1 custom documentation plugin(s)  
+2021-02-08 04:05:10,774 [main] INFO  s.documentation.spring.web.scanners.ApiListingReferenceScanner -  
+            Scanning for api listing references  
+2021-02-08 04:05:10,889 [main] INFO  com.example.demo.Cleancodep4Application -  
+            Started Cleancodep4Application in 2.991 seconds (JVM running for 3.451)  
+2021-02-08 04:05:20,142 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] -  
+            Initializing Spring DispatcherServlet 'dispatcherServlet'  
+2021-02-08 04:05:20,143 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -  
+            Initializing Servlet 'dispatcherServlet'  
+2021-02-08 04:05:20,143 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -  
+            Completed initialization in 0 ms  
+2021-02-08 04:05:20,149 [http-nio-8080-exec-1] DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter -  
+            Before request [POST /create]  
+2021-02-08 04:05:20,273 [http-nio-8080-exec-1] DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter -  
+            REQUEST DATA : POST /create, payload={
+    "name": "Nguyen Van A",
+    "email": *****,
+    "password": *****,
+    "year": "2001",
+    "mode": "STUDENT"
+}]  
+2021-02-08 04:10:23,671 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -  
+            Application shutdown requested.  
+2021-02-08 04:10:23,695 [RMI TCP Connection(12)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor -  
+            Shutting down ExecutorService 'applicationTaskExecutor'  
+2021-02-08 04:10:23,697 [RMI TCP Connection(12)-127.0.0.1] INFO  o.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean -  
+            Closing JPA EntityManagerFactory for persistence unit 'default'  
+2021-02-08 04:10:23,699 [RMI TCP Connection(12)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -  
+            HikariPool-1 - Shutdown initiated...  
+2021-02-08 04:10:23,702 [RMI TCP Connection(12)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -  
+            HikariPool-1 - Shutdown completed.  
+2021-02-08 04:12:06,248 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [com.luvina.net.LeQuyPhuc_CleanCode.config.MaskingPatternLayout] java.lang.ClassNotFoundException: com.luvina.net.LeQuyPhuc_CleanCode.config.MaskingPatternLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:33 - no applicable action for [maskingPattern], current ElementPath  is [[configuration][appender][encoder][layout][maskingPattern]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:33 - no applicable action for [maskingPattern], current ElementPath  is [[configuration][appender][encoder][layout][maskingPattern]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@22:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.example.demo.Cleancodep4Application.main(Cleancodep4Application.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Could not create component [layout] of type [com.luvina.net.LeQuyPhuc_CleanCode.config.MaskingPatternLayout] java.lang.ClassNotFoundException: com.luvina.net.LeQuyPhuc_CleanCode.config.MaskingPatternLayout
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:33 - no applicable action for [maskingPattern], current ElementPath  is [[configuration][appender][encoder][layout][maskingPattern]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:33 - no applicable action for [maskingPattern], current ElementPath  is [[configuration][appender][encoder][layout][maskingPattern]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@22:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][encoder][layout][pattern]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 18 common frames omitted
+2021-02-08 04:14:23,249 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@48:11 - no applicable action for [encoder], current ElementPath  is [[configuration][encoder]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@49:12 - no applicable action for [pattern], current ElementPath  is [[configuration][encoder][pattern]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.example.demo.Cleancodep4Application.main(Cleancodep4Application.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@48:11 - no applicable action for [encoder], current ElementPath  is [[configuration][encoder]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@49:12 - no applicable action for [pattern], current ElementPath  is [[configuration][encoder][pattern]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 18 common frames omitted
