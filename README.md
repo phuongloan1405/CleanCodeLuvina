@@ -52,18 +52,19 @@ Vì khi đó, ta chỉ cần quan tâm đến lương khởi điểm và thâm n
 ## **Phần 2: OOP và SOLID** 
 1. Hãy lập trình Java để thực hiện thiết kế như hình vẽ 
 
-[GraphicsEditor] ( https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/GraphicsEditor)
+[GraphicsEditor]( https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/GraphicsEditor)
 
 ## **Phần 3: Thiết kế CSDL Quan hệ theo đặc tả**
 [CourseManagement]( https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/Course%20Management)
 
 ## **Phần 4: Thiết kế RESTful API**
 
-[SignUpUser] (  https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/Course%20Management)
+[SignUpUser]( https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/SignUpUser)
+
 
 ## **Phần 5: Lập trình Restful API**
 
-[Phan 5] ( https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/cleancodep5)
+[Phan 5]( https://github.com/phuongloan1405/CleanCodeLuvina/tree/BTCK/cleancodep5)
 
 ## **Trắc nghiệm**
 
@@ -81,19 +82,19 @@ Vì khi đó, ta chỉ cần quan tâm đến lương khởi điểm và thâm n
 
 7. A     
 
-8. B      
+8. A      
 
 9. B
 
 10. A
 
-11. B     
+11. D     
 
 12. C     
 
 13. B     
 
-14. D     
+14. B     
 
 15. D
 
